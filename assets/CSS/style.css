@@ -43,7 +43,7 @@
 }
 
 .container .container-custom .image-box:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: 2s;
     overflow: hidden;
 
