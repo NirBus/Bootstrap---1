@@ -11,13 +11,10 @@
 .container .container-custom .image-box{
     overflow: hidden;
     margin: 50px auto; 
-    width: 29%;
+    width: 320px;
     height: 550px;
     border: 1px solid rgb(128, 128, 128 , 0.3);
     border-radius: 5px;
-    overflow: hidden;
-
-
 }
 
 .container .container-custom .image-box img{
@@ -46,9 +43,14 @@
     transform: scale(1.03);
     transition: 2s;
     overflow: hidden;
+}
 
-
-
+@media (max-width:625px) {
+        .col-sm-12{
+        width: 100%;
+        border: 5px solid red;
+        border-radius: 10px;
+    }
 }
 
 
